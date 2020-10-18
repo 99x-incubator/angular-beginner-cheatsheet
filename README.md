@@ -91,4 +91,16 @@ Now your project will be generated after a few minutes
     
   -- This skips running the command `npm install` with `ng new`. Thus, you need to run `npm install` after the project generation.
 
-    ng new starter-project --prefix myFirstStep
+       ng new --help
+-- This provides all the possible commands that can come along with `ng new`
+    
+    
+## Check Formatting
+
+Lint check is used to ensure that code is in a better format
+
+|Command|Functionality  |
+|--|--|
+|  `ng link <project-name>`|  Displays the warnings stating the bad code-formatting|
+|`ng lint my-app --fix`|Fixes the bad code formattings
+|`ng lint my-app --format stylish`|Formats the code
