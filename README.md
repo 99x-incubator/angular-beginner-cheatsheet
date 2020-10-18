@@ -24,3 +24,16 @@ Angular has been introduced as a web application development framework which is 
 
 ## Install Angular
 
+The follwoing methods guides to install Angular to your computer or to downgrade the Angular version at any occurance of such requirement
+
+  **Install Angular (with the latest version)**
+  
+  Basically you can run the following command
+
+    npm install -g @angular/cli
+***or***
+
+If you need to be ascertain about the installation of the latest version, the following is useful
+
+    npm install -g @angular/cli@latest
+**NOTE:** **-g** helps to install Angular globally in your computer environment
